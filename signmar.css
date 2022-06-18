@@ -1,0 +1,49 @@
+
+
+
+.btn_success{
+    padding: 14px;
+    margin-top: -100px;
+    background:#008037 ;
+    border: none;
+    border-radius: 20px;
+    color:#f7f7f7;
+ }
+ .btn_success:hover{
+     background-color: #008037;
+ }
+ form input{
+    padding: 1px;
+    border-style: none;
+    border: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: 0;
+    width: 350px;
+}
+.titre{
+    padding: 20px;
+   font-size: 20px;
+}
+hr{
+    border-top: 1px solid #008037;
+    width: 350px;
+}
+.formulaire{
+        margin-top: 50px;
+        width: 450px;
+        height: 470px;
+        padding: 20px;
+        padding-top: 0px;
+        box-shadow: #008037 0px 6px 12px -2px, #008037 0px 3px 7px -3px;
+        border-radius: 20px;
+        color: #008037;
+        background-color: white;
+}
+form input[type="file"]{
+    border:#008037;
+    color:#008037;
+    background-color: white;
+    margin-top: 10px;
+}  

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<style>
+   @import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Poppins:ital,wght@0,200;0,300;0,500;1,100;1,600&display=swap');
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hea{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 15px;
+    background-color: white;
+}
+body{
+    background-color: #f5f5f5;
+
+}
+
+.incolma{
+        margin-top: 20px;
+        color:#04B45F;
+}
+.bar{
+        margin-top: 28px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+ul li{
+    font-size: larger;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+@media (max-width:1091px) {
+    .bar{
+        display: none;
+    }
+}
+
+.hea a{
+    color: black;
+}
+.sign{
+    padding: 15px;
+    margin-top: -12px;
+    border-radius: 16px;
+    background-color: #04B45F;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+
+</style>
+
+<div class="hea">
+        <div class="incolma">
+        <h2>Incolma</h2>
+    </div>
+    <div class="bar">
+        <ul>
+            <a href="index.html">
+                <li>Home</li>
+            </a><a href="connexion.php">
+                <li>Login</li>
+            </a><a href="signup.php">
+                <button  class="sign"><li>Sign-up</li></button>
+            </a>
+        </ul>
+    </div>
+</div>
+    <hr>

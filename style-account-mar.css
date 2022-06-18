@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Poppins:ital,wght@0,200;0,300;0,500;1,100;1,600&display=swap');
+*{
+    font-family: poppins;
+}
+.icone{
+    color:#04B45F;
+}
+
+.img-mar{
+    border-radius: 50%;
+}
+.nom-mar{
+    text-align: center;
+}
+
+.edit_photo_mar{
+    position: relative;
+    bottom: -90px;
+    width: 112%;
+    padding: 10px;
+    margin-left: -20px;
+    border-radius: 0px 0px 15px 15px;
+    border: none;
+    color:#04B45F;
+    background-color: #212226;
+    cursor: pointer;
+ }
+ 
+
+.info-influenceur{
+    margin-top: 40px !important;
+    padding: 25px;
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    height: 370px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 40px;
+}
+.info-influenceur2{
+    margin-top: 40px !important;
+    padding: 25px;
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    height: 660px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 40px;
+}
+.info-marque{
+    margin-top: 40px !important;
+    padding: 25px;
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    height: 620px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 40px;
+}
+.photo-inf{
+    border-radius: 50%;
+}
+.properties{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.sc-media{
+    margin-left: 10px;
+}
+.nom-inf{
+    color: #04B45F;
+}
+#detail_col{
+    display: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+form input{
+    width: 100%;
+}
+form .send{
+    margin-top: 50px;
+}

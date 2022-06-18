@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Poppins:ital,wght@0,200;0,300;0,500;1,100;1,600&display=swap');
+*{
+    font-family: poppins;
+   
+   
+
+}
+body{
+    background-image:url("forme.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+#marque{
+    display: none;
+}
+.connexion{
+    margin-top: 70px;
+    width: 350px;
+    height: 400px;
+    padding: 30px;
+    padding-top: 0px;
+    box-shadow: #008037 0px 6px 12px -2px, #008037 0px 3px 7px -3px;
+    border-radius: 20px;
+    background-color: #ffffff;
+  
+  
+}
+.choix{
+    height: 50px;
+    background: transparent;
+    align-items: center;
+    margin-top: 20px;
+
+    
+   
+   
+}
+.connect_titre{
+    margin-top: 40px;
+    margin-bottom: 25px;
+
+}
+#inf,#mar{
+    cursor: pointer;
+    font-family: poppins;
+    border-bottom-width: 2px;
+    width:165px ;
+    padding: 14px;
+    margin-left: 0;
+    display: inline;
+    border-radius: 20px;
+    margin-top: 15px;
+    
+   
+}
+h4{
+    color: #008037;
+}
+
+
+#inf:hover,#mar:hover{
+    transform:scale(1.2);
+    
+   
+}
+
+
+#inf{
+    border: none;
+    background: #008037;
+    color: #ffffff;
+
+}
+#mar{
+    border:none;
+    background: #ffffff; 
+    color: black;
+    
+    
+}
+form input{
+    padding: 15px;
+    border-style: none;
+    border: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: 0;
+    width: 350px;
+    
+
+}
+
+.connecter{
+   padding: 14px;
+   margin-top: -40px;
+   background: #008037;
+   border: none;
+   border-radius: 20px;
+   color: #ffff;
+}
+.connecter:hover{
+    background-color: #00472a;
+}
+hr{
+    border-top: 1px solid #008037
+}
+

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Poppins:ital,wght@0,200;0,300;0,500;1,100;1,600&display=swap');
+    .barre{
+        margin-top: 20px;
+        margin-bottom: 0px;
+        padding: 20px 20px 5px 20px;
+    }
+    .barre ul {
+        float: right;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        
+    }
+    .barre ul li a{
+        font-family: poppins;
+        text-decoration: none;
+        margin-left: 30px;
+        color: gray;
+    }
+    .incolma{
+        font-weight: bold;
+        font-family: poppins;
+        font-size: x-large;
+        color: #04B45F;
+    }
+    hr{
+        margin-top: -20px;
+    }
+    a{
+        text-decoration: none;
+    }

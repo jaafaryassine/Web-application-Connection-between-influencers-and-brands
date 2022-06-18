@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Poppins:ital,wght@0,200;0,300;0,500;1,100;1,600&display=swap');
+*{
+    font-family: poppins;
+}
+body{
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.bordure-rond{
+    border-radius: 15px;
+}
+.icone{
+    color:#04B45F;
+    margin-right: 10px;
+}
+.vertical{
+    width:  220px;
+    height: 800px;
+    background-color: #212226;
+    margin-left: -10px;
+    color: white;
+    border-top: 1px solid #04B45F;
+}
+.vertical a{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    margin-left: -20px;
+}
+
+#lesmarques{
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    min-height: 500px;
+    width: 500px;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.grid_marques,.grid-settings{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.carte{
+    width: 300px;
+    height: 120px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+.carte:hover{
+    transform: scale(1.05);
+}
+.success:hover center{
+    color: #04B45F;
+}
+.danger:hover center{
+    color: rgb(194, 44, 44);
+}
+
+
+
+#partenariats,#messages,#marques,#settings{
+    display: none;
+}
+#marques{
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+.edit{
+    margin-top: 20px !important;
+}
+.msg-box{
+    background-color: white;
+    width: 900px;
+    height: 400px;
+    overflow-y: scroll;
+    margin: 20px 30px 30px 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.msg{
+    padding: 15px;
+    overflow: hidden;
+}
+.msg .name-marque{
+    font-weight: bold;
+}
+#profil,#settings{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#settings{
+    margin-left: 100px;
+}
+.logo{
+    border-radius: 50%;
+    width: 40px;
+    height: 30px;
+    position: relative;
+    margin-right: 30px;
+}
+
+.lamarque{
+    margin-top: 20px;
+}
+.contact{
+    float:right; 
+    margin-top:-5px;
+    margin-right:5px;
+    border-radius: 15px;
+    padding: 8px;
+    border: none;
+    background-color: #04B45F;
+    color: white;
+}
+
+
+.info-profil{
+    width: 85%;
+    background-color: white;
+    height: 400px;
+    padding: 20px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.img-inf{
+    border-radius: 50%;
+    z-index: 1;
+}
+.nom-inf{
+    text-align: center;
+}
+.properties{
+    list-style-type: none;
+}
+.grid-profil{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 700px;
+}
+.sc-media{
+    margin-left: 5px;
+}
+.info{
+height: 120px;
+background-color: white;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+width: 400px;
+margin: auto;
+padding:15px;
+}
+#change{
+    display: none;
+    height: 60px;
+    background-color: white !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 400px;
+    margin: auto;
+    padding:5px;
+    }
+
+
+.link-info :hover{
+    transform:scale(1.05);
+}
+ 
+.nb-partenariats{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.marque-partenaires,.request-part{
+    margin: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+table{
+    width: 100%;
+}
+th{
+    font-weight: 400;
+}
+.colonnes{
+    color: #04B45F;
+}
+.chercher{
+    background-color: #212226;
+    width: 104%;
+    margin-left: -10px;
+    margin-top: -10px;
+    border-radius: 16px 16px 0px 0px;
+}
+#search{
+    width:95%;
+    border-radius: 16px;
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+    outline: 0;
+    color: #f5f5f5;
+}
+
+.edit_photo{
+   position: relative;
+   bottom: -60px;
+   width: 112%;
+   padding: 10px;
+   margin-left: -20px;
+   border-radius: 0px 0px 15px 15px;
+   border: none;
+   color:#04B45F;
+   background-color: #212226;
+   cursor: pointer;
+}
+
+
+
+
+@media(max-width:911px){
+    .main{
+        display:block;
+    }
+    .vertical{
+        display: none;
+    }
+    .grid-profil{
+        display: block;
+    }
+    .grid-settings{
+        display: block;
+    }
+    .grid_marques{
+        display: block;
+    }
+    .info{
+        margin-top: 40px;
+    }
+    .edit_photo{
+        width: 420px;
+    }
+}
+.msg-box::-webkit-scrollbar {
+    width: 12px;               
+  }
+  
+  .msg-box::-webkit-scrollbar-track {
+    background: white;        
+  }
+  
+  .msg-box::-webkit-scrollbar-thumb {
+    background-color: gray;    
+    border-radius: 20px;       
+    border: 3px solid white;  
+    
+  }

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/M.png">
+
+</head>
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Poppins:ital,wght@0,200;0,300;0,500;1,100;1,600&display=swap');
+  header{
+    margin: -10px -7px 0px -20px;
+    background-color: #212226;
+  }
+
+    .barre{
+        padding: 30px;
+    }
+    .barre ul {
+        float: right;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        
+        
+    }
+    .barre ul li a{
+        font-family: poppins;
+        text-decoration: none;
+        margin-left: 30px;
+        color: gray;
+    }
+   
+    .incolma{
+        font-weight: bold;
+        font-family: poppins;
+        font-size: x-large;
+        color: #04B45F;
+    }
+    .nav-mobile,#submenu{
+        display: none;
+    }
+    #submenu{
+        background-color: #212226;
+        padding: 20px;
+    }
+
+    .logout:hover{
+        color: rgb(179, 22, 22);
+    }
+    
+    @media (max-width:537px){
+    .nav{
+        display: none;
+    }
+    .nav-mobile{
+        display: block;
+        float: right;
+    }
+    
+    }
+    </style>
+    <header>
+    <div class="header">
+    <div class="barre">
+        <a href="account_mar.php" style="text-decoration: none;"><span class="incolma">MaColab</span></a>
+        
+       <ul>
+           <li><a class="nav rechercher" href="searchInf.php" style="color: #04B45F;">Chercher influenceur</a></li>
+           <li><a class="nav logout" href="logout.php">Déconnexion</a></li>
+       </ul>
+       <!--mobile-->
+       <div class="nav-mobile">
+       <button id="dropdown" onclick="montrerMenu()"><span class="material-symbols-outlined">menu</span></button>
+       <div>
+        <ul id="submenu">
+            <li><a href="searchInf.php" style="color: #04B45F;">Chercher influenceur</a></li>
+            <li><a href="logout.php" >Déconnexion</a></li>
+        </ul>
+       </div>
+    </div>
+    </div>
+</div>
+
+</header>
+
+</html>
+
+<script>
+    function montrerMenu(){
+    let submenu=document.getElementById('submenu');
+    if(submenu.style.display=='block'){
+        submenu.style.display='none';
+    }
+    else{
+        submenu.style.display='block';
+    }
+    }
+</script>
+
